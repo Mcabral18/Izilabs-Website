@@ -1,0 +1,628 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    background: #f8f9fa !important;
+}
+
+.navigation .navbar {
+    padding: 10px 0;
+}
+
+.navigation .nav-item {
+    font-weight: 800;
+    font-family: Montserrat !important;
+}
+
+.navigation .nav-item:hover a {
+    color: royalblue !important;
+}
+
+.navigation .nav-item:hover {
+    transform: translate(0, -5px);
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    /* Half height */
+    height: 90%;
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg .h1-reponsive {
+    margin-top: 20%;
+}
+
+.bg .h1-reponsive,
+.text-uppercase {
+    color: #fff !important;
+    padding: 10px 0px;
+}
+
+.bg .btn {
+    padding: 15px 40px;
+    background: #2057A8;
+    border-radius: 40px;
+}
+
+.bg .btn a {
+    color: #fff !important;
+}
+
+.bg .btn:hover {
+    background: rgb(4, 101, 247);
+}
+
+
+/* about us */
+
+#About_us h1 {
+    color: #4C4D4F;
+    text-align: center;
+    font-size: 30px;
+    font-family: Rubik;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+
+/*text */
+
+#esquerda .leftside_aboutus .aboutbox h3 {
+    margin-top: 8%;
+    margin-left: 4%;
+    color: #494A4C;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#esquerda .leftside_aboutus .aboutbox p {
+    color: #494A4C;
+    margin-left: 4%;
+    font-family: Open Sans semibold;
+    font-size: 17px;
+}
+
+#esquerda .leftside_aboutus .aboutbox h4 {
+    color: #0B4F5E;
+    margin-top: 2%;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 4%;
+    font-style: italic;
+}
+
+.btn-contact {
+    font-family: Open Sans;
+    font-weight: bold;
+    display: inline-block;
+    border: none;
+    background-color: #0099FF;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    margin-top: 2%;
+    text-decoration: none;
+    transition: opacity 0.4s ease;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+.btn-contact:hover {
+    background-color: #37c6e6;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 680px) {
+    #esquerda .leftside_aboutus .aboutbox p {
+        margin-top: 3%;
+        color: #494A4C;
+        margin-left: 4%;
+        font-family: Open Sans semibold;
+        font-size: 14px;
+        width: 88%;
+    }
+}
+
+
+/*   ******************** */
+
+
+/*team*/
+
+.rightside_aboutus a {
+    color: black;
+}
+
+.rightside_aboutus:hover a {
+    text-decoration: none;
+    color: black;
+}
+
+.rightside_aboutus .team-member .member1 {
+    height: 170px;
+    width: 170px;
+}
+
+.rightside_aboutus .nn .team-member2 .member2 {
+    height: 170px;
+    width: 170px;
+}
+
+.team-member {
+    height: auto;
+    float: left;
+    box-shadow: 2px 2px 10px #000;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 1px 1px;
+    text-align: center;
+    margin: 0 5px;
+    background: #F2F2F2;
+    margin: 50px;
+}
+
+.team-member .member1 {
+    height: 200px;
+    width: 200px;
+}
+
+.team-member2 {
+    height: auto;
+    float: left;
+    box-shadow: 2px 2px 10px #000;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 1px 1px;
+    text-align: center;
+    margin: 0 5px;
+    background: #F2F2F2;
+    margin: 50px;
+}
+
+.nn .team-member2 .member2 {
+    height: 200px;
+    width: 200px;
+}
+
+@media screen and (max-width: 1110px) {
+    #direita,
+    #esquerda {
+        height: 100%;
+        float: left;
+    }
+}
+
+
+/**************************/
+
+
+/* serives */
+
+#services {
+    padding: 60px 0 0 0;
+    background: #E6E7E8;
+    margin-top: 5%;
+}
+
+#services .container h1 {
+    margin-top: 10x;
+    color: #4C4D4F;
+    text-align: center;
+    font-size: 30px;
+    font-family: Rubik;
+    font-weight: bold;
+}
+
+#services .box {
+    margin-top: 50px;
+    padding: 40px;
+    margin-bottom: 40px;
+    background: #fff;
+    transition: 0.4s;
+    border: 1px solid #dedede;
+}
+
+
+#services .box:hover {
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+}
+
+#services .box .icon {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+#services .box .icon i {
+    color: #444;
+    font-size: 44px;
+    transition: 0.5s;
+    line-height: 0;
+    margin-top: 0px;
+}
+
+#services .box .icon i:before {
+    background: #278bf2;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#services .box h4 {
+    margin-left: 100px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin: 0;
+}
+
+#services .box h4 {
+    color: #444;
+    text-decoration: none;
+    padding: 2px 0px 10px 0px;
+}
+
+#services .box p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    display: block;
+    margin: 0;
+    padding-top: 15px;
+    justify-content: center;
+
+}
+
+@media (max-width: 767px) {
+    #services .box .box {
+        margin-bottom: 20px;
+    }
+    #services .box .icon {
+        float: none;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    #services .box h4,
+    #services .box p {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+/* ************* */
+
+
+/* partners */
+
+#partners {
+    margin-top: 100px;
+}
+
+#partners h1 {
+    color: #4C4D4F;
+    text-align: center;
+    font-size: 30px;
+    font-family: Rubik;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.slick-slide {
+    margin: 0 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.copy {
+    padding-top: 250px;
+}
+
+#Projects {
+    background: #E6E7E8;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+#Projects h1 {
+    color: #4C4D4F;
+    text-align: center;
+    font-size: 30px;
+    font-family: Rubik;
+    font-weight: bold;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+
+.card-body .card-title {
+    text-align: center;
+}
+
+.card-body .card-title .card-text {
+    text-align: center;
+}
+/*  projects */
+    
+    .card .card-img-top{
+        padding: 1em;
+          border-radius: 30px !important;
+          height: 350px;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+
+    .card-body .card-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #444;
+    }
+
+    .card-body .card-text {
+        text-align: justify;
+        font-family: Patua;
+    }
+
+    .card-body .btn{
+        text-transform: uppercase;
+        font-family: Rubik;
+        font-size: 0.8em;
+    }
+
+    .card-body .btn:hover{
+        color: #007bff;
+        background: transparent;
+        border-color: grey !important;
+        border-width: 0.08rem !important;
+    }
+
+    .card:hover{
+        box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.10);
+    }
+
+
+/*contacts 
+
+.title h1 {
+    margin-top: 50px;
+    color: #4C4D4F;
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.containercontact {
+    text-align: center;
+}
+
+.containercontact .row .columncontact p {
+    color: black;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contact_wrapper {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 50%;
+}
+
+.columncontact {
+    margin-top: 30px;
+    float: left;
+    width: 33.3%;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.columncontact h1 {
+    text-decoration: none;
+    color: #233D4D;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.columncontact p {
+    text-decoration: none;
+    color: black;
+    font-family: Open Sans;
+    font-size: 15px;
+}
+
+.squarefooter {
+    height: 3px;
+    width: 90%;
+    background-color: #231F20;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containercopy {
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+*/
+/* media icons 
+
+.s-m {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.s-m a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #2c3e50;
+    color: #FFFFFF;
+    margin: 6px 6px;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+}
+
+.s-m a:hover {
+    background: #058DCF;
+    text-decoration: none;
+}
+
+.s-m a i {
+    transition: 0.4s all;
+    text-decoration: none;
+}
+
+.s-m a:hover>i {
+    transform: scale(1.6) rotate(25deg);
+    text-decoration: none;
+}
+*/
+
+/* footer */
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    padding: 12vmin 5vmin;
+}
+
+footer .text-light{
+    text-align: left;
+    font-family: Rubik;
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
+
+footer p {
+    color: rgba(218, 213, 213, 0.5);
+    font-family: Rubik;
+}
+
+footer .column i {
+    color: #ff512f;
+    padding: 0.4rem 0.8em;
+}
+
+
+/* end footer */
+
+
+/* responsive contacts */
+/*
+@media screen and (max-width: 500px) {
+    .columncontact {
+        width: 100%;
+    }
+}
+*/
+
+
+@media screen and (max-width: 500px) {
+    .slick-slide img {
+        width: 80px;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .h1-reponsive {
+        font-size: calc(20px + 6 * ((100vh - 320px) / 680));
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+}
+
